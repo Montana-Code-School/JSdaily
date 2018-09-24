@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import deck from '../resources/deck.json';
 const exports = module.exports = {};
 

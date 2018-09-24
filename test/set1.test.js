@@ -4,15 +4,12 @@ const expect = chai.expect;
 
 describe('Set #1', function(){
   describe('returnWhatYearYouWereBorn', function(){
-    const date = new Date();
-    const age = 36;
-    const testDate = date.getFullYear() - age;
     it('should return a number',function() {
       expect(set1.returnWhatYearYouWereBorn(age)).to.be.a('number');
     });
 
     it('should return the year you were born', function(){
-      expect(set1.returnWhatYearYouWereBorn(age)).to.eql(testDate);
+      expect(set1.returnWhatYearYouWereBorn(age)).to.eql(new Date().getFullYear() - 36);
     });
   });
 
@@ -28,7 +25,7 @@ describe('Set #1', function(){
     it('The first city in the array should by Chicago',function() {
       expect(set1.returnOnlyCitiesThatStartWith('c')[0]).to.eql('Chicago');
     });
-    
+
   });
 
   describe('returnSumOfPrimes',function(){

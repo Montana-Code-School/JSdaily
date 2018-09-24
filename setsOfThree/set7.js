@@ -1,5 +1,3 @@
-import request from 'request';
-import rp from  'request-promise';
 import cities from '../resources/cities.json';
 import deck from '../resources/deck.json';
 const exports = module.exports = {};

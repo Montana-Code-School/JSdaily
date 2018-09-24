@@ -1,8 +1,9 @@
 import chai from 'chai';
+
 const set9 = require('../setsOfThree/set9');
 
-describe('Set #9: ', () => {
-  describe('Exercise 1: Binary Search Tree Depth', function(){
+describe('Set #9: Make your own', () => {
+  describe('Exercise 1: ', function(){
 
   });
 

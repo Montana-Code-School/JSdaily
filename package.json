@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register test",
-    "prototype:daily": "babel-node setsOfThree/set1/set1.js"
+    "test": "./node_modules/mocha/bin/mocha --require babel-register test",
+    "prototype:daily": "babel-node setsOfThree/set1.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,8 @@
     "body-parser": "^1.17.2",
     "chai": "^3.5.0",
     "chai-things": "^0.2.0",
-    "mocha": "^3.3.0",
-    "request": "^2.81.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.1"
   },
   "dependencies": {
