@@ -1,6 +1,5 @@
 import cities from '../resources/cities.json';
 import deck from '../resources/deck.json';
-const exports = module.exports = {};
 
 /***********************
   Exercise 1: This function takes in an array with two strings.  The first string
@@ -8,7 +7,7 @@ const exports = module.exports = {};
   letters as the first string, return false, else return true.
 ***********************/
 
-exports.allLetters = (arr) => {
+const allLetters = (arr) => {
 
 }
 
@@ -19,7 +18,7 @@ exports.allLetters = (arr) => {
     2. Population under 100,000 people.
 ************************/
 
-exports.theProblemWithStrings = (citiesArr) => {
+const theProblemWithStrings = (citiesArr) => {
 
 };
 
@@ -27,6 +26,12 @@ exports.theProblemWithStrings = (citiesArr) => {
   Exercise 3:  Determine is a sentence is a pangram
 ***********************/
 
-exports.panTheGram = (text) => {
+const panTheGram = (text) => {
 
 };
+
+module.exports = {
+  allLetters,
+  theProblemWithStrings,
+  panTheGram
+}

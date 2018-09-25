@@ -1,5 +1,4 @@
-import deck from '../resources/deck.json';
-const exports = module.exports = {};
+import deck from '../resources/deck.json'
 
 /************************
     you ->should<-  be able to use ES6 syntax
@@ -10,7 +9,7 @@ const exports = module.exports = {};
    if the string is a question it should return false
 ***********************/
 
-exports.neverQuestion = (str) => {
+const neverQuestion = (str) => {
 
 }
 
@@ -26,7 +25,7 @@ exports.neverQuestion = (str) => {
   Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 ************************/
 
-exports.sumSquareDiff = (num) => {
+const sumSquareDiff = (num) => {
 
 }
 
@@ -39,6 +38,12 @@ exports.sumSquareDiff = (num) => {
     The values should be an ascending straight flush.
 ************************/
 
-exports.spadesRoyalStraightFlush = () => {
+const spadesRoyalStraightFlush = () => {
 
 }
+
+module.exports = {
+  neverQuestion,
+  sumSquareDiff,
+  spadesRoyalStraightFlush
+};

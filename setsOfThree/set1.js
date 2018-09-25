@@ -1,16 +1,14 @@
 import cities from '../resources/cities.json';
-const exports = module.exports = {};
 
 /************************
   Exercise 1: Get the year you were born
   This function should take in your age and return
-  The year you are born
+  The year you are born.
 ************************/
 
-exports.returnWhatYearYouWereBorn = function(age){
+const returnWhatYearYouWereBorn = (age) => {
 
 };
-
 
 /************************
   Exercise 2:
@@ -18,12 +16,10 @@ exports.returnWhatYearYouWereBorn = function(age){
   this operation must be case insensitive, bonus use <code>.filter</code>
 ************************/
 
-exports.returnOnlyCitiesThatStartWith = function(theLetter){
+const returnOnlyCitiesThatStartWith = (theLetter) => {
 
-  return [];
 };
 
-exports.returnOnlyCitiesThatStartWith("c");
 
 /************************
   Exercise 3:
@@ -31,6 +27,12 @@ exports.returnOnlyCitiesThatStartWith("c");
   and return them...
 ************************/
 
-exports.returnSumOfPrimes = function(input) {
-    return input;
+const returnSumOfPrimes = (input) => {
+
+};
+
+module.exports = {
+  returnWhatYearYouWereBorn,
+  returnOnlyCitiesThatStartWith,
+  returnSumOfPrimes
 };

@@ -1,6 +1,5 @@
 import deck from '../resources/deck.json';
 import cities from '../resources/cities.json';
-const exports = module.exports = {};
 
 /***********************
   Exercise 1: Recursive Factorial
@@ -12,7 +11,7 @@ const exports = module.exports = {};
   For example, 5! = 5 x 4 x 3 x 2 x 1 = 120
 ***********************/
 
-exports.factorial = () => {
+const factorial = () => {
 
 }
 
@@ -20,7 +19,7 @@ exports.factorial = () => {
   Exercise 2: Write a function that accepts a string, and returns true if the string is a palindrome
 ***********************/
 
-exports.isPalindrome = () => {
+const pairElement = (DNAstr) => {
 
 }
 
@@ -38,6 +37,12 @@ exports.isPalindrome = () => {
 
 ************************/
 
-exports.createCalc = () => {
+const createCalc = () => {
 
+};
+
+module.exports = {
+  factorial,
+  pairElement,
+  createCalc
 };

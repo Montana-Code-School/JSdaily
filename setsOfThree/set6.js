@@ -9,7 +9,7 @@ const exports = module.exports = {};
 ************************/
 
 const titleCase = (string) => {
-  return string;
+
 }
 
 /***********************
@@ -18,7 +18,7 @@ const titleCase = (string) => {
   Your function should return an array with only the a words.
 ***********************/
 
-exports.alphaToPoe = (poe) => {
+const alphaToPoe = (poe) => {
 
 }
 
@@ -44,6 +44,12 @@ exports.alphaToPoe = (poe) => {
 
 ***********************/
 
-exports.numberFromBinary = (binary) => {
+const numberFromBinary = (binary) => {
 
+}
+
+module.exports = {
+  titleCase,
+  alphaToPoe,
+  numberFromBinary
 }

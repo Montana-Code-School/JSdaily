@@ -1,12 +1,11 @@
 import deck from '../resources/deck.json';
-const exports = module.exports = {};
 
 /************************
   Exercise 1: Pass a function a new date object and return a string of readable
   24 time. formatted -> hours:minutes:seconds
 ************************/
 
-exports.aintNobody = (gotTimeForThat) => {
+const aintNobody = (gotTimeForThat) => {
 
 }
 
@@ -25,7 +24,7 @@ exports.aintNobody = (gotTimeForThat) => {
 
 ***********************/
 
-exports.whatsUrBestDay = () => {
+const whatsUrBestDay = () => {
 
 }
 
@@ -38,6 +37,12 @@ exports.whatsUrBestDay = () => {
   a percentage, number, i.e. 0.25.
 ***********************/
 
-exports.tresRando = () => {
+const tresRando = () => {
 
+}
+
+module.exports = {
+  aintNobody,
+  whatsUrBestDay,
+  tresRando
 }

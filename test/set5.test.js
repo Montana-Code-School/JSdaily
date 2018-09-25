@@ -2,38 +2,36 @@ const set5 = require('../setsOfThree/set5');
 import chai from 'chai';
 const expect = chai.expect;
 
-describe('Set #5', function () {
-
-  describe('Exercise 1: Palindromes', function(){
-    xit('This function accepts a string, and must return true or false if the string is a palindrome', function(){
-      expect(set5.isPalindrome("racecar")).to.eql(true);
+describe('Set #5', () => {
+  xdescribe('Exercise 1: DNA Pairs', () => {
+    it('This function should return an array', () => {
+      expect(set5.pairElement("gcg")).to.be.a("array");
+    });
+    it('This function should return sets of DNA pairs', () => {
+      expect(set5.pairElement("gcg")).to.eql([["G", "C"], ["C","G"],["G","C"]]);
     });
   });
 
-  describe('Exercise 2: Factorial', function(){
-    xit('This function takes in a number, and it must return the factorial of the number.', function(){
+  xdescribe('Exercise 2: Factorial', () => {
+    it('This function takes in a number, and it must return the factorial of the number.', () => {
       expect(set5.factorial(5)).to.eql(120);
     });
   });
 
-  describe('Exercise 3: Simple Calculator ', function(){
-    xit('should return an object', function(){
+  xdescribe('Exercise 3: Simple Calculator ', () => {
+    it('should return an object', () => {
       expect(set5.createCalc("divide", 4, 2)).to.be.an('object');
     });
-
-    xit('the returned object should have the keys output and readable', function(){
+    it('the returned object should have the keys output and readable', () => {
       expect(set5.createCalc("divide", 4, 2)).to.have.all.keys('output', 'readable');
     });
-
-    xit('the calculations should be correct, i.e. 20 divided by 4 should equal 5', function(){
+    it('the calculations should be correct, i.e. 20 divided by 4 should equal 5', () => {
       expect(set5.createCalc("divide", 20, 4).output).to.eql(5);
     });
-
-    xit('if there is an an error present in the system the ouput should contain an err key', function(){
+    it('if there is an an error present in the system the ouput should contain an err key', () => {
       expect(set5.createCalc("divide", "d", 4)).to.have.key('err');
     });
-
-    xit('the returned object should have a human readable output that is a string', function(){
+    it('the returned object should have a human readable output that is a string', () => {
       expect(set5.createCalc("divide", 20, 4).readable).to.be.a('string');
     });
   });

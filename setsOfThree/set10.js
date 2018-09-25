@@ -1,11 +1,9 @@
-const exports = module.exports = {};
-
 /************************
   Exercise 1:
   describe here
 ************************/
 
-exports.writeYourOwn = () => {
+const writeYourOwn = () => {
 
 }
 
@@ -14,7 +12,7 @@ exports.writeYourOwn = () => {
   describe here
 ***********************/
 
-exports.makeItCool = () => {
+const makeItCool = () => {
 
 }
 
@@ -23,6 +21,12 @@ exports.makeItCool = () => {
   describe here
 ***********************/
 
-exports.testsComeFirst = () => {
+const testsComeFirst = () => {
 
 };
+
+module.exports = {
+  writeYourOwn,
+  makeItCool,
+  testsComeFirst
+}

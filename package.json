@@ -21,17 +21,11 @@
     "babel-core": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.24.1",
-    "body-parser": "^1.17.2",
     "chai": "^3.5.0",
-    "chai-things": "^0.2.0",
-    "mocha": "^5.2.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.1"
+    "eslint": "^5.6.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
-    "ajax-request": "^1.2.1",
-    "babel-cli": "^6.24.1",
-    "express": "^4.15.2",
-    "node-fetch": "^1.7.0"
+    "babel-cli": "^6.24.1"
   }
 }
